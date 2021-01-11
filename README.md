@@ -34,3 +34,13 @@ Your team is going to build a travel brochure site. Each of you will pick a coun
 
 ## Stretch Goal
 1. Using [Sharethrough](https://headlines.sharethrough.com/), analyze your headline with the country name. Make adjustments to the copy to make it more engaging.
+1. make a UI improvement to the nav bar
+1. photos for citizens cities and landmarks
+
+
+## Group Goals
+
+1. MVP!! minimum viable project
+1. Git Workflow
+1. planning and working as a group
+1. communication!!!!
