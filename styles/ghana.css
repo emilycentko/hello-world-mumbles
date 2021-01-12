@@ -1,0 +1,27 @@
+.country__image {
+    width: 100%;
+    object-fit: cover;
+    height: 350px;
+}
+body {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    margin: 20px;
+}
+.citizens__card-img {
+    width: 100%;
+    object-fit: cover;
+    height: 450px;
+}
+.cities__card-img {
+    width: 100%;
+    object-fit: cover;
+    height: 450px;
+}
+.landmark__card-img {
+    width: 100%;
+    object-fit: cover;
+    height: 450px;
+}
