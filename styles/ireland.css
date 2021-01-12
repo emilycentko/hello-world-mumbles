@@ -1,0 +1,18 @@
+.country__image {
+    width: 100%;
+    object-fit: scale-down;
+
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+}
+
+.content {
+    display: flex;
+}
+
+.content__container {
+    margin: 15px;
+}
