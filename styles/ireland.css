@@ -37,4 +37,12 @@ border for readability */
 .content__container {
     margin: 20px;
     border: solid black 4px;
+    /* flex: 0 1 30%; */
+}
+
+.cities__card-image,
+.landmarks__card-image,
+.citizens__card-image {
+    width: 100%;
+    object-fit: scale-down;
 }
