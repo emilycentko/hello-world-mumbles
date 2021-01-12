@@ -1,0 +1,52 @@
+/* sets the country image to full width of screen without 
+distorting proportions */
+.country__image {
+    width: 100%;
+    object-fit: cover;
+    height: 350px;
+}
+
+/* basic formatting for h1 */
+h1 {
+    text-align: center;
+    margin: 20px;
+}
+
+/* this sets the parent <section> container to 
+flex, allowing the children content__containers to be moved
+with flex css */
+.content {
+    display: flex;
+}
+
+/* media responsivity for a smaller screen. this sets the flex 
+items to column/stack and adds some cushion around the border */
+@media only screen and (max-width: 750px) {
+    .content {
+        flex-direction: column;
+        padding: 0 30px;
+    }
+
+    .content__container {
+        padding: 5px 20px;
+    }
+}
+
+/* simple css for some visual relief (padding) and a placeholder 
+border for readability */
+.content__container {
+    margin: 20px;
+    border: solid black 4px;
+}
+
+.citizens__card-image {
+    width: 100px;
+}
+
+.landmarks__card-image {
+    width: 100px;
+}
+
+.citites__card-image {
+    width: 100px;
+}
