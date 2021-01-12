@@ -1,7 +1,7 @@
 .country__image {
     width: 100%;
-    object-fit: scale-down;
-
+    object-fit: cover;
+    height: 350px;
 }
 
 h1 {
@@ -13,9 +13,14 @@ h1 {
     display: flex;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 750px) {
     .content {
         flex-direction: column;
+        padding: 0 30px;
+    }
+
+    .content__container {
+        padding: 5px 20px;
     }
 }
 
