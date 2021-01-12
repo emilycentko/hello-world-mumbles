@@ -35,6 +35,25 @@ items to column/stack and adds some cushion around the border */
 /* simple css for some visual relief (padding) and a placeholder 
 border for readability */
 .content__container {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
     margin: 20px;
     border: solid black 4px;
+    padding: 10px;
+    justify-content: center;
+}
+
+/* this sets the images on all my cards to be responsive to container size */
+.cities__card-image,
+.landmarks__card-image,
+.citizens__card-image {
+    width: 100%;
+    object-fit: scale-down;
+    max-width: 300px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
 }
