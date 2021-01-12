@@ -13,6 +13,19 @@ h1 {
     display: flex;
 }
 
-.content__container {
-    margin: 15px;
+@media only screen and (max-width: 600px) {
+    .content {
+        flex-direction: column;
+    }
 }
+
+.content__container {
+    margin: 20px;
+    border: solid black 4px;
+}
+
+
+/* h2, 
+h3 {
+    text-align: center;
+} */
