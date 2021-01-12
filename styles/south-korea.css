@@ -39,3 +39,23 @@ border for readability */
     border: solid black 4px;
 }
 
+
+.cities__card{
+    flex-basis: 10%;
+}
+
+.landmarks__card{
+    flex-basis: 10%;
+}
+.citizens__card-image{
+    width: 100%;
+    object-fit: scale-down;
+}
+.landmarks__card-image{
+    width: 100%;
+    object-fit: scale-down;
+}
+.cities__card-image{
+    width: 100%;
+    object-fit: scale-down;
+}
