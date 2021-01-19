@@ -1,6 +1,6 @@
 
 
-export const city = (city) =>{
+export const City = (city) =>{
     return `
         <section class="southkorea__city">
             <h1>${city.name}</h1>
