@@ -44,3 +44,5 @@ Your team is going to build a travel brochure site. Each of you will pick a coun
 1. Git Workflow
 1. planning and working as a group
 1. communication!!!!
+
+![mumblesDependencyTree](mumblesDependencyTree.png)
