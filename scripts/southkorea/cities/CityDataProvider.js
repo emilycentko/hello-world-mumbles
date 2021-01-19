@@ -15,6 +15,6 @@ const cities = [
         text : "Busan, a large port city in South Korea, is known for its beaches, mountains and temples. Busy Haeundae Beach features the Sea Life Aquarium, plus a Folk Square with traditional games such as tug-of-war, while Gwangalli Beach has many bars and views of modern Diamond Bridge. Beomeosa Temple, a Buddhist shrine founded in 678 A.D., is at the base of Geumjeong Mountain, which has hiking trails",
     }
 ]
-const useCities = () =>{
+export const useCities = () =>{
     return cities.slice();
 }
