@@ -1,7 +1,5 @@
-import { useCitizen } from './citizens/CitizenDataProvider.js'
-
-useCitizen()
-
 import { useCity } from './cities/CityDataProvider.js'
+import { city } from './cities/City.js'
 
-console.log(useCity())
+console.log(city(useCity()))
+
