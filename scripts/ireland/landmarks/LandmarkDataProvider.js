@@ -1,17 +1,21 @@
 const landmarkList = [
     {
-    name: "",
-    image: "",
-    text: "",
+    name: "Giants Causeway",
+    image: "giantscauseway.jpg",
+    text: "Nature. That's pretty neat.",
     },
     {
-    name: "",
-    image: "",
-    text: "",
+    name: "The Old Library",
+    image: "oldlibrary.jpg",
+    text: "Books!",
     },
     {
-    name: "",
-    image: "",
-    text: "",
+    name: "Cliffs of Moher",
+    image: "cliffsofmoher2.jpg",
+    text: " Probably near Moher?",
     }
 ]
+
+export const useLandmark = () => {
+    return landmarkList.slice()
+}
