@@ -1,9 +1,6 @@
-/* test
+import { cityList } from './cities/CityList.js'
+import { citizenList } from './citizens/CitizenList.js'
 
-import { useCitiesObjects } from './cities/CityDataProvider.js'
-import { useCitizensObjects } from './citizens/CitizenDataProvider.js'
-import { useLandmarksObjects } from './landmarks/LandmarkDataProvider.js'
+cityList();
 
-useCitiesObjects();
-useCitizensObjects();
-useLandmarksObjects(); */
+citizenList();

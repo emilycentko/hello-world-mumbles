@@ -1,9 +1,7 @@
-
-// import { city } from './cities/City.js'
-
-<<<<<<< HEAD
-
+import { cityList }  from "./cities/CityList.js"
+import { citizenPrintList } from "./citizens/CitizenList.js"
 import { printLandmarkList } from './landmarks/LandmarkList.js'
+
 printLandmarkList()
-=======
->>>>>>> main
+cityList()
+citizenPrintList()

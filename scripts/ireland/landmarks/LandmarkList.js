@@ -11,6 +11,7 @@ export const printLandmarkList = () => {
 
     }
     contentElement.innerHTML += `
+    <h2 class="ireland__titles">Notable Landmarks</h2>
 ${landmarkHTML}    
 `
 }
