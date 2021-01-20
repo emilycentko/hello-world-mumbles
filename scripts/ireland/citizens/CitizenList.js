@@ -11,5 +11,8 @@ export const citizenPrintList = () => {
         citizenHTML += citizen(citizenObj)
     }
 
-    contentElement.innerHTML += citizenHTML
+    contentElement.innerHTML += `
+    <h2 class="ireland__titles">Notable Citizens</h2>
+    ${citizenHTML}
+    `
 }
