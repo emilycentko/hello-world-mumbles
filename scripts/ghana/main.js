@@ -1,11 +1,6 @@
-import { useCitizen} from './citizens/CitizenDataProvider.js'
-
-useCitizen()
-
-import { useCity} from './cities/CityDataProvider.js'
-
-useCity()
-
-import { useLandmark} from './landmarks/landmarkDataProvider.js'
-
-useLandmark()
+import { CityList } from "./cities/CityList.js"
+import { CitizenList} from "./citizens/CitizenList.js"
+import { LandmarkList} from "./landmarks/LandmarkList.js"
+CityList()
+CitizenList()
+LandmarkList()
