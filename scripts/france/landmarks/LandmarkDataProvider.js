@@ -1,7 +1,7 @@
 const landmarksObjects = [
     {
         name: "The Louvre",
-        image: "images/louvre.jpg",
+        image: "/images/louvre.jpg",
         text: "The Louvre, or the Louvre Museum, is the world's largest art museum and a historic monument in Paris, France."
         
     },
@@ -20,5 +20,5 @@ const landmarksObjects = [
 ]
 
 export const useLandmarksObjects = () => {
-    landmarksObjects.slice();
+    return landmarksObjects.slice();
 }
