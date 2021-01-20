@@ -1,4 +1,4 @@
-const citizenObjects = [
+const citizensObjects = [
     {
         name: "Carla Bruni",
         image: "images/carla-b.jpg",

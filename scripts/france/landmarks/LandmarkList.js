@@ -1,7 +1,7 @@
 import { useLandmarksObjects } from './LandmarkDataProvider.js'
 import { Landmark } from './Landmark.js'
 
-export const LandmarkList = () => {
+export const landmarkList = () => {
     const contentElement = document.querySelector(".landmarks__content__container");
     const landmarksArray = useLandmarksObjects()
 
