@@ -1,6 +1,3 @@
-<<<<<<< HEAD
+import { cityList } from './cities/CityList.js'
 
-import { city } from './cities/City.js'
-
-=======
->>>>>>> main
+cityList()
