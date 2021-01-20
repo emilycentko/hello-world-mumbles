@@ -20,5 +20,5 @@ const landmarksObjects = [
 ]
 
 export const useLandmarksObjects = () => {
-    landmarksObjects.slice();
+    return landmarksObjects.slice();
 }
