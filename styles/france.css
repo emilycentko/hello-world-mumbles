@@ -1,6 +1,11 @@
+.france_body {
+    font-family: Georgia, Garamond, sans-serif;
+}
+
+
 /* sets the country image to full width of screen without 
 distorting proportions */
-.country__image {
+.france_header__img {
     width: 100%;
     object-fit: cover;
     height: 350px;
@@ -15,8 +20,12 @@ h1 {
 /* this sets the parent <section> container to 
 flex, allowing the children content__containers to be moved
 with flex css */
-.content {
+.france_container__content {
     display: flex;
+}
+
+h3 {
+    text-align: center;
 }
 
 /* media responsivity for a smaller screen. this sets the flex 
@@ -34,19 +43,23 @@ items to column/stack and adds some cushion around the border */
 
 /* simple css for some visual relief (padding) and a placeholder 
 border for readability */
-.content__container {
+.france_container__content {
     margin: 20px;
     border: solid black 4px;
 }
 
-.citizens__card-image {
+.france_citizens__card-image{
+    height: 300px;
+}
+
+.france_landmarks__card-image {
     width: 100px;
 }
 
-.landmarks__card-image {
-    width: 100px;
+.france_cities__card-image {
+    width: 300px;
 }
 
-.citites__card-image {
-    width: 100px;
+/*.frenchlandmarks, .frenchcitizens, .frenchcities {
+    width: 33%;
 }
