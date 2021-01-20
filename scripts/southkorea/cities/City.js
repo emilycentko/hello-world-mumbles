@@ -3,7 +3,7 @@
 export const City = (city) =>{
     return `
         <section class="southkorea__city">
-            <h1>${city.name}</h1>
+            <h2>${city.name}</h2>
             <img src="${city.image}" alt="city image" />
             <div>${city.text}</div>
         </section>
