@@ -1,6 +1,6 @@
-<<<<<<< HEAD
 
-import { city } from './cities/City.js'
+// import { city } from './cities/City.js'
 
-=======
->>>>>>> main
+
+import { printLandmarkList } from './landmarks/LandmarkList.js'
+printLandmarkList()
