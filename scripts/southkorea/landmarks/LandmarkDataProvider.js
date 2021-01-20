@@ -15,6 +15,6 @@ const landmarks = [
         text : "In May 2012, Jeonju was chosen as a Creative Cities for Gastronomy as part of UNESCO's Creative Cities Network. This honour recognizes the city's traditional home cooking handed down over thousands of years, its active public and private food research, a system of nurturing talented chefs, and its hosting of distinctive food festivals.",
     }
 ]
-const useLandmarks = () =>{
+export const useLandmarks = () =>{
     return landmarks.slice();
 }

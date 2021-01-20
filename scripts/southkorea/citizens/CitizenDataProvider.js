@@ -15,6 +15,6 @@ const citizens = [
         text : "Wanna One was a South Korean boy band formed by CJ E&M through the second season of Produce 101. The group was composed of eleven members: Kang Daniel, Park Ji-hoon, Lee Dae-hwi, Kim Jae-hwan, Ong Seong-wu, Park Woo-jin, Lai Kuan-lin, Yoon Ji-sung, Hwang Min-hyun, Bae Jin-young and Ha Sung-woon.",
     }
 ]
-const useCitizens = () =>{
+export const useCitizens = () =>{
     return citizens.slice();
 }
